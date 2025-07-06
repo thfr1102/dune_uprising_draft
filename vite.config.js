@@ -17,6 +17,3 @@ export default defineConfig({
     },
   },
 })
-module.exports = {
-  publicPath: '/dune_uprising_draft/',
-}
