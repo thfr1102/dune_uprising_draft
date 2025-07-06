@@ -1,0 +1,90 @@
+@import "./base.css";
+
+#app {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+.main-container {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+
+.div_button {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.div_check_boxes {
+  text-align: left;
+}
+
+.div_check_boxes input {
+  height: 25px;
+  width: 25px;
+}
+
+.div_check_boxes label {
+  padding-left: 15px;
+  font-size: 22px;
+  bottom: 5px;
+}
+
+.player-list {
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  min-width: max-content;
+  box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+  -ms-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+}
+
+.player-name {
+  margin: 10px auto;
+  padding: 0 10px;
+}
+
+.object-list {
+  list-style-type: none;
+  padding-left: 5%;
+}
+
+.object-list li {
+  margin: 5%;
+  font-size: 14px;
+}
