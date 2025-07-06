@@ -43,7 +43,7 @@
         class="btn btn-primary btn-lg"
         type="button"
       >
-        Draft Wonders
+        Draft Leaders
       </button>
     </div>
     <div class="results">
