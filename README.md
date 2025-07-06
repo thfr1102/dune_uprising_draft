@@ -1,3 +1,3 @@
-# dune_uprising_draft
+# Fredrik's Dune Imperium: Uprising Drafter
 
 Leader drafter for Dune Imperium: Uprising
