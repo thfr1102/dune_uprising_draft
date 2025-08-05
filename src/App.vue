@@ -70,10 +70,9 @@ export default {
       objectPool: [
         "Muad'Dib",
         "Lady Margot Fenring",
-        "Reverend Mother Jessica",
+        "Jessica",
         "Feyd-Rautha Harkonnen",
         "Gurney Halleck",
-        "Lady Jessica",
         "Staban Tuek",
         "Princess Irulan",
         "Lady Amber Metulli",
